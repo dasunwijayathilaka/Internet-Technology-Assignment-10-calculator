@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Realistic Calculator</title>
+    <title>Asigment 10 Calculator</title>
     <style>
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
             display: flex;
             justify-content: center;
             align-items: center;
@@ -20,14 +20,14 @@
             padding: 20px;
             border-radius: 15px;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-            width: 320px;
+            width: 520px;
         }
 
         .display {
             width: 100%;
             height: 80px;
             background-color: #000;
-            color: #0f0;
+            color: #05ffc5;
             text-align: right;
             padding: 20px;
             font-size: 2.5em;
@@ -48,7 +48,7 @@
             background-color: #444;
             color: #fff;
             border: none;
-            border-radius: 50%;
+            border-radius: 20%;
             cursor: pointer;
             transition: background-color 0.2s;
             text-align: center;
@@ -68,7 +68,7 @@
         }
 
         .button.clear {
-            background-color: #e74c3c;
+            background-color: #e73ca3;
         }
 
         .button.zero {
@@ -86,9 +86,9 @@
         <button class="button operator" onclick="setOperation('/')">/</button>
         <button class="button operator" onclick="setOperation('*')">*</button>
 
-        <button class="button" onclick="appendNumber('7')">7</button>
-        <button class="button" onclick="appendNumber('8')">8</button>
-        <button class="button" onclick="appendNumber('9')">9</button>
+        <button class="button" onclick="appendNumber('1')">1</button>
+        <button class="button" onclick="appendNumber('2')">2</button>
+        <button class="button" onclick="appendNumber('3')">3</button>
         <button class="button operator" onclick="setOperation('-')">-</button>
 
         <button class="button" onclick="appendNumber('4')">4</button>
@@ -96,9 +96,9 @@
         <button class="button" onclick="appendNumber('6')">6</button>
         <button class="button operator" onclick="setOperation('+')">+</button>
 
-        <button class="button" onclick="appendNumber('1')">1</button>
-        <button class="button" onclick="appendNumber('2')">2</button>
-        <button class="button" onclick="appendNumber('3')">3</button>
+        <button class="button" onclick="appendNumber('7')">7</button>
+        <button class="button" onclick="appendNumber('8')">8</button>
+        <button class="button" onclick="appendNumber('9')">9</button>
 
         <button class="button zero" onclick="appendNumber('0')">0</button>
         <button class="button equal" onclick="calculate()">=</button>
